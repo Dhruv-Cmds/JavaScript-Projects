@@ -37,14 +37,34 @@ else {
 
 // 4. Write a function to find mean of 5 numbers,
 
-let number1 = 10
-let number2 = 20
-let number3 = 30
-let number4 = 40
-let number5 = 50
+// let number1 = 10
+// let number2 = 20
+// let number3 = 30
+// let number4 = 40
+// let number5 = 50
 
-let sum = number1 + number2 + number3 + number4 + number5;
+// let sum = number1 + number2 + number3 + number4 + number5;
 
-let mean = sum / 5;
+// let mean = sum / 5;
 
-console.log("Mean:",mean);
+//  Normal function
+function mean (n1, n2, n3, n4, n5) {
+
+    let sum = n1 + n2 + n3 + n4 + n5;
+
+    return sum / 5;
+}
+
+result = mean(10, 20, 30, 40, 50);
+console.log("Mean:",result);
+
+//  Arrow function (used to use as function ans used to store function in variable)
+const funcMean = (n1, n2, n3, n4, n5) => {
+
+    let sum = n1 + n2 + n3 + n4 + n5;
+
+    return sum / 5;
+}
+
+result = funcMean(10, 20, 30, 40, 50);
+console.log("Mean:",result);
