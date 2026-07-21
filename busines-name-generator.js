@@ -42,13 +42,13 @@ const business_name_generator = (random_generate) => {
 
     if (random_generate === 1) {
         return (
-            `business name ${obj1[Math.floor(Math.random() * 3) + 1]} ${obj2[Math.floor(Math.random() * 3) + 1]} ${obj3[Math.floor(Math.random() * 3) + 1]}
+            `business name: ${obj1[Math.floor(Math.random() * 3) + 1]} ${obj2[Math.floor(Math.random() * 3) + 1]} ${obj3[Math.floor(Math.random() * 3) + 1]}
         `)
     }
 
     else if (random_generate === 2) {
         return (
-            `business name ${obj1[Math.floor(Math.random() * 3) + 1]} ${obj2[Math.floor(Math.random() * 3) + 1]} ${obj3[Math.floor(Math.random() * 3) + 1]}
+            `business name: ${obj1[Math.floor(Math.random() * 3) + 1]} ${obj2[Math.floor(Math.random() * 3) + 1]} ${obj3[Math.floor(Math.random() * 3) + 1]}
         `)
     }
 
@@ -61,7 +61,6 @@ const business_name_generator = (random_generate) => {
 }
 
 console.log(business_name_generator(Math.floor(Math.random() * 3) + 1));
-
 
 
 /*
