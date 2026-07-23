@@ -1,30 +1,30 @@
 // 1 Create an array of numbers and take input from the user to add numbers to this array,
 
-// let arr1 = [1, 2, 3, 4, 5];
+let arr1 = [1, 2, 3, 4, 5];
 
-// let userInput = prompt("Enter a number: ")
+let userInput = prompt("Enter a number: ")
 
-// arr1.push(Number(userInput))
-// console.log(arr1)
+arr1.push(Number(userInput))
+console.log(arr1)
 
 // 2 Kep adding numbers to the arrya in until 0 is added to the array,
 
-// let arr2 = [1, 2, 3, 4, 5];
+let arr2 = [1, 2, 3, 4, 5];
 
 
-// while (true) {
+while (true) {
 
-//     let userInput = prompt("Enter a number: ")
+    let userInput = prompt("Enter a number: ")
 
-//     if (Number(userInput) === 0) {
+    if (Number(userInput) === 0) {
 
-//         break;
-//     }
+        break;
+    }
 
-//     arr2.push(Number(userInput));
-// }
+    arr2.push(Number(userInput));
+}
 
-// console.log(arr2);
+console.log(arr2);
 
 // 3. Filter for numbers divisible by 10 from a given array
 // arr = [10, 20, 30, 40, 50],
@@ -38,8 +38,8 @@ console.log(arr3.filter(
 
 // 4. Use reduce to calculate factorial of a given number from an array of first n natural numbers
 
-
-function factorical(n) {
+// function factorical(n) {}
+const factorial = (n) => {
 
     if (n < 0) return undefined;
 
@@ -50,4 +50,21 @@ function factorical(n) {
     );
 }
 
-console.log(factorical(5));
+console.log(factorial(5));
+
+//  OR
+
+const factorial_1 = (f) => {
+
+    let fact_count =  1;
+
+    for (let i = 1; i < f + 1; i++) {
+
+        fact_count *= i;
+    }
+    
+    return fact_count;
+}
+
+
+console.log(factorial_1(5));
