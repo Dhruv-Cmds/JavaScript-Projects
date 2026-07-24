@@ -7,53 +7,54 @@
     <title>Document</title>
 
     <style>
-        nav ul li {
-            height: 45px;
-            width: 56px;
+
+        .box {
+            height: 180px;
+            width: 180px;
             border: 2px solid black;
-            margin: 5px;
-            padding: 5px;
-            text-decoration: none;
-            list-style: none;
+            color: rgb(255, 255, 255);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.2s ease
         }
 
-        .box{
-            height: 45px;
-            width: 56px;
-            border: 2px solid black;
-            margin: 5px;
-            padding: 5px;
+        .box:hover {
+            transform: scale(1.2);
+            transform: 300ms;
         }
+
+        .container {
+            margin-top: 20%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 23px;
+
+            font-family: monospace;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
     </style>
 </head>
 
 <body>
-
-    <nav>
-        <ul>
-            <li>home</li>
-            <li>about</li>
-            <li>contect</li>
-            <li>FAQ</li>
-        </ul>
-    </nav>
-
-    <table>
-        <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-        </tr>
-    </table>
-
+    <!-- 
+        Given 5 boxes, Assign a random color and a random background to each box using DOM concepts
+     -->
 
     <div class="container">
-        <div class="box">Box1</div>
-        <div class="box">Box2</div>
-        <div class="box">Box3</div>
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
     </div>
 
-    <script src="JavaScript-practice/practice_6.js"></script>
-
+    <script src="color-the-box.js"></script>
 </body>
 
 </html>

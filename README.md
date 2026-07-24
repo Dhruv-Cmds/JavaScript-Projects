@@ -17,7 +17,7 @@ This repository is a collection of JavaScript projects organized into systems, g
 
 1. Navigate to any project folder:
    ```
-    cd JavaScript-practice/LibrarySystem
+   cd JavaScript-practice
    ```
 
 ## Project Structure
