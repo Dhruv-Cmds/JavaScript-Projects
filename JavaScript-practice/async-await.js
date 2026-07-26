@@ -35,8 +35,6 @@
 
 
 
-
-
 // async function getData() {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
@@ -46,30 +44,24 @@
 // }
 
 async function getData() {
-    let x = await  fetch('https:///jsonplaceholder.typicode.com/todos/100')
+    let x = await fetch('https:///jsonplaceholder.typicode.com/todos/100')
     let data = await x.json()
     return data
-} 
+}
 
-async function main(){
+async function main() {
 
     console.log('Loading modules');
-    
+
     console.log('Do something else');
-    
-    console.log('Load data');
-    
+
     let data = await getData();
-    
+
     console.log(data);
-    
+
     console.log('process data');
-    
+
     console.log('task 2');
-    
-    console.log('task 3');
-    
-    console.log('task 4');
 }
 
 main()
