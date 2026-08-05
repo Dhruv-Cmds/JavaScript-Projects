@@ -1,8 +1,12 @@
 {
-  "name": "backend-ep1",
+  "name": "javascript-projeccts",
   "version": "1.0.0",
   "description": "This repository is a collection of JavaScript projects organized into systems, games, and utility applications. It is designed to demonstrate core programming concepts, object-oriented design, and practical implementations.",
-  "main": "server.js",
+  "main": "index.js",
+  "dependencies": {
+    "slugify": "^1.6.9"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +14,11 @@
     "type": "git",
     "url": "git+https://github.com/Dhruv-Cmds/JavaScript-Projects.git"
   },
-  "author": "dhruv",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dhruv-Cmds/JavaScript-Projects/issues"
   },
-  "homepage": "https://github.com/Dhruv-Cmds/JavaScript-Projects#readme",
-  "dependencies": {
-    "slugify": "^1.6.9"
-  }
+  "homepage": "https://github.com/Dhruv-Cmds/JavaScript-Projects#readme"
 }
