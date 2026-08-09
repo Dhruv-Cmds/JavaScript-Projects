@@ -8,6 +8,10 @@ const fs = require("fs")
 //     })
 // })
 
-fs.appendFile("dhruv.txt", "rgoriuhguoirbg", (e, d) => {
-    console.log();
-})
+// fs.appendFile("dhruv.txt", "rgoriuhguoirbg", (e, d) => {
+//     console.log();
+// })
+
+// fs.readFile("dhruv.txt", (e, d) => {
+//     console.log(d.toString())
+// })

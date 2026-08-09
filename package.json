@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This repository is a collection of JavaScript projects organized into systems, games, and utility applications. It is designed to demonstrate core programming concepts, object-oriented design, and practical implementations.",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "slugify": "^1.6.9"
   },

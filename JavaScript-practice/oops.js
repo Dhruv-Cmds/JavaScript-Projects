@@ -9,21 +9,21 @@
 // rabbit.__proto__ = animal;
 
 
-// class Animal {
-//     constructor(name) {
+class Animal {
+    constructor(name) {
 
-//         this.name = name;
-//         // console.log("Object is created...")
-//     }
+        this.name = name;
+        console.log("Object is created...")
+    }
 
-//     eats() {
-//         console.log('Kha raha hoon');
-//     }
+    eats() {
+        console.log('Kha raha hoon');
+    }
 
-//     jums() {
-//         console.log('kood raha hoon');
-//     }
-// }
+    jums() {
+        console.log('kood raha hoon');
+    }
+}
 
 // class Lion extends Animal {
 //     constructor(name) {
