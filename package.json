@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/Dhruv-Cmds/JavaScript-Projects/issues"
   },
-  "homepage": "https://github.com/Dhruv-Cmds/JavaScript-Projects#readme"
+  "homepage": "https://github.com/Dhruv-Cmds/JavaScript-Projects#readme",
+  "devDependencies": {}
 }
