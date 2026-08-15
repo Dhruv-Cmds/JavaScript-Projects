@@ -1,5 +1,6 @@
 import express from "express";
 import { dirname, join } from "node:path";
+import { blob } from "node:stream/consumers";
 import { fileURLToPath } from "node:url";
 
 const app = express();
@@ -11,12 +12,15 @@ app.use(express.static(join(__dirname, "public")));
 
 app.get("/", (req, res) => {
 
-  let arr = [35, 535, 345]
+  // let arr = [35, 535, 345]
+  // let siteName = "Dhruv"
+  // let searchText = "Search Now"
+  // res.render("index", {blogContent: blogContent, blogTitle: blogTitle})
 
   res.render("index", {
     siteName: "Dhruv",
     searchText: "Search Now",
-    arr
+    arr: [35, 535, 345]
   });
 });
 

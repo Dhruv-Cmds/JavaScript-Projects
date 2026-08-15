@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button class="btn">
+        <%= btnText %>
+    </button>
+    <script>
+
+        document.querySelector(".btn").addEventListener("click", async () => {
+
+            let a = await fetch("/generate-data", { method: "POST" })
+            let b = await a.json()
+
+            console.log(b);
+
+        })
+    </script>
+</body>
+
+</html>
