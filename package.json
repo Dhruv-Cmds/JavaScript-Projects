@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
     "accepts": "^2.0.0",
     "body-parser": "^2.3.0",
     "bootstrap": "^5.3.8",
@@ -69,6 +70,7 @@
     "side-channel-weakmap": "^1.0.2",
     "slugify": "^1.6.9",
     "statuses": "^2.0.2",
+    "tailwindcss": "^4.3.3",
     "toidentifier": "^1.0.1",
     "type-is": "^2.1.0",
     "unpipe": "^1.0.0",
