@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p class="counter">0</p>
+    <button class="btn">click me</button>
+
+    <script>
+        document.querySelector(".btn").addEventListener("click", () => {
+
+            let n = parseInt(document.querySelector(".counter").innerHTML);
+            document.querySelector(".counter").innerHTML = n + 1;
+        })
+    </script>
+</body>
+
+</html>
