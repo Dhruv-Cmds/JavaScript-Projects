@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+nav{
+    color: red;
+    background-color: rgb(31, 30, 30);
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+li:hover{
+    color: white;
+    transition: all 300ms ease;
+}
