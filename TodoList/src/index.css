@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+body{
+    background: #3b3b3b;
+}
+
+/* Responsive layout additions */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    min-width: 320px;
+    width: 100%;
+}
+
+.container {
+    width: min(75rem, calc(100% - 2rem));
+    max-width: 100%;
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: calc(100% - 1rem);
+        margin-top: 1rem;
+        padding: 0.75rem;
+    }
+
+    .container > div {
+        padding: 1rem;
+    }
+
+    .container h1,
+    .container h2 {
+        font-size: 1.25rem;
+    }
+
+    .container > div:first-child > div {
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+
+    .container > div:first-child input {
+        min-width: 0;
+        flex: 1 1 12rem;
+    }
+
+    .container > div:first-child button {
+        flex: 0 0 auto;
+    }
+
+    .container > div:last-child > div:last-child > div {
+        flex-wrap: wrap;
+    }
+
+    .container > div:last-child > div:last-child > div span {
+        flex-basis: calc(100% - 2rem);
+    }
+
+    .container > div:last-child > div:last-child > div button {
+        flex: 1 1 5rem;
+    }
+}
